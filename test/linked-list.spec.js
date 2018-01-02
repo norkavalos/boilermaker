@@ -58,7 +58,7 @@ describe('A linked list', () => {
   })
 
   it('has a Node class defined to represent a node', () => {
-    // `isNative` is a helpr function used by this spec.
+    // `isNative` is a helper function used by this spec.
     // There is already an object called `Node` in the browser (unrelated to the "Node"s in our Linked List),
     // so this function makes sure that we're using YOUR Node.
     function isNative (fn) {
