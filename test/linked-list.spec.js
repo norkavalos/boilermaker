@@ -45,9 +45,11 @@ describe('A linked list', () => {
     linkedList = new LinkedList()
   })
 
-  it('has methods `addToTail`, `removeHead`, and `search` (and maybe others?)', () => {
+  it('has methods `addToTail`, `addToHead`, `removeHead`, `removeTail`, and `search`', () => {
     expect(typeof linkedList.addToTail).toBe('function')
+    expect(typeof linkedList.addToHead).toBe('function')
     expect(typeof linkedList.removeHead).toBe('function')
+    expect(typeof linkedList.removeTail).toBe('function')
     expect(typeof linkedList.search).toBe('function')
   })
 
