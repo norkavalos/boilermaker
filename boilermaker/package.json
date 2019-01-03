@@ -2,7 +2,7 @@
   "name": "boilermaker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
     "start": "node server",
     "start-dev": "webpack -w & nodemon server.js",
