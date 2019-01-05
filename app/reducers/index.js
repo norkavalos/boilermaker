@@ -1,5 +1,5 @@
-import { combineReducers } from 'redux';
+import { combineReducers } from "redux";
 
-function dummyReducer (state = {}, action) {
-    return state;
-  }
+function dummyReducer(state = {}, action) {
+  return state;
+}
