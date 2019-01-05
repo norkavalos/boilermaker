@@ -17,6 +17,8 @@ app.get('*', function(req, res, next) {
   res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
+app.use('/api', require('./api'));
+
 // error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);
